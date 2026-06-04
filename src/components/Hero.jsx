@@ -61,7 +61,7 @@ function Hero() {
           {/* Right Side */}
           <div className="col-lg-6 text-center mt-5 mt-lg-0">
             <img
-              src="/profilepic1.jpeg"
+             src={`${import.meta.env.BASE_URL}profilepic1.jpeg`}
               alt="Sai Koganti"
               className="img-fluid rounded-circle border border-4 border-warning shadow"
               style={{
